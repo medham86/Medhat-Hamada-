@@ -30,10 +30,10 @@ body{
 }
 .header-ul{
     list-style: none;
-    color:#ea6d14;
+    color:#ffffff;
     float: right;
     margin-right: 80px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .header-li{
     display: inline-block;
@@ -61,6 +61,37 @@ body{
 .header-li:hover{
     color:#ffffff;
     font-weight: bold;
+}
+.blog{
+    display: block;
+    float: right;
+}
+
+.blog:hover .blogspot{
+
+    visibility: visible;
+}
+
+.blog:hover .header-line{
+    visibility:visible;
+    width: 50%;
+    transition: 0.5s ease;
+    align-content: center;
+    margin: 5px;
+ }
+
+.blogspot{
+    list-style: none;
+    visibility: hidden;
+    margin-left: -13px;
+}
+
+.blogspot-a{
+    text-decoration:none ;
+    color: #ffffff;
+    background-color: #ea6d14;
+    padding: 5px;
+    margin-top: 10px;
 }
 /* ------------------------------------------------------- */
 
@@ -335,7 +366,7 @@ body{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(241, 225, 225,0.5);
+    background-color: rgba(241, 225, 225,0.2);
     visibility: hidden;
 }
 
